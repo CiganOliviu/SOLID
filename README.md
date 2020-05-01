@@ -1,2 +1,2 @@
 # SOLID
-SOLID design pattern examples.
+SOLID design pattern example.
