@@ -15,6 +15,7 @@ namespace DIPGoodExample
             return Result;
         }
     }
+    
     class Program
     {
         static void Main(string[] args)

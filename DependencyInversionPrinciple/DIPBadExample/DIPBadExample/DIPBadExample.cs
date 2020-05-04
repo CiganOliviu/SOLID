@@ -16,6 +16,7 @@ namespace DIPBadExample
             return Result;
         }
     }
+    
     class Program
     {
         static void Main(string[] args)

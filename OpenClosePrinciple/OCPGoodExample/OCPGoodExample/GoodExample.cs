@@ -11,7 +11,7 @@ namespace OCPGoodExample
     {
 
         private const double PI = 3.1415926535897931;
-        public double Radius;
+        private double Radius;
 
         public Circle (double Radius)
         {
@@ -29,14 +29,15 @@ namespace OCPGoodExample
 
     class Triangle: Shapes
     {
-        double Base;
-        double Height;
-        
+        private double Base;
+        private double Height;
+
         public Triangle (double Base, double Height)
         {
             this.Base = Base;
             this.Height = Height;
-        } 
+        }
+
         public double GetArea ()
         {
             double Result;
@@ -57,15 +58,16 @@ namespace OCPGoodExample
             }
         }
     }
+    
     class Program
     {
         static void Main(string[] args)
         {
             Shapes[] ShapeInstance = new Shapes[2];
-            
+
             ShapeInstance[0] = new Circle(3.0);
             ShapeInstance[1] = new Triangle(3.0, 4.0);
-            
+
             int Size = 2;
 
             ShapesProcessor.OutputAllAreasShapes(ShapeInstance, Size);

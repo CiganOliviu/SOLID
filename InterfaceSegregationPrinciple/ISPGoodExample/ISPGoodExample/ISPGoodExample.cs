@@ -14,6 +14,7 @@ namespace ISPGoodExample
     class Cube : SolidShapesAttribute
     {
         private double Width;
+        
         public void SetWidth(double Width)
         {
             this.Width = Width;
@@ -38,6 +39,7 @@ namespace ISPGoodExample
             this.Base = Base;
             this.Height = Height;
         }
+
         public double GetArea()
         {
             double Result;

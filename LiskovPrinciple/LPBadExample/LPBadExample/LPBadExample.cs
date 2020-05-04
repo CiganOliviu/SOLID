@@ -11,7 +11,7 @@ namespace LPBadExample
         public void AssignAttributes(double Height, double Width)
         {
             this.Height = Height;
-            this.Width = Width; 
+            this.Width = Width;
         }
     }
 
@@ -23,6 +23,7 @@ namespace LPBadExample
             this.Width = Height;
         }
     }
+
     class Program
     {
         static void Main(string[] args)

@@ -26,6 +26,7 @@ namespace SRP
             return Root;
         }
     }
+    
     class QuadraticEquationOperations
     {
         public double GetValueQuadraticEquation(quadraticEquation Equation, limits<double> Roots)
@@ -37,7 +38,7 @@ namespace SRP
             return Result;
         }
     }
- 
+
 
     class BadExample
     {
